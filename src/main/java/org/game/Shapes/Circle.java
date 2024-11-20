@@ -4,11 +4,13 @@ import java.awt.*;
 
 public class Circle extends Shape{
     private int width,heigth;
+
     public Circle(int x, int y,int width,int height) {
         super(x, y);
         this.width = width;
         this.heigth = height;
     }
+
     @Override
     public Shape createShape(int x, int y) {
         return new Circle(x,y,width,heigth);

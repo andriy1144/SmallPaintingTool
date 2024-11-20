@@ -12,6 +12,7 @@ public class MouseListener_ implements MouseMotionListener, MouseListener {
     public MouseListener_(PaintingArea paintingArea){
         this.paintingArea = paintingArea;
     }
+
     @Override
     public void mouseDragged(MouseEvent e) {
         paintingArea.setDrawing(true);

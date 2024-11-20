@@ -2,8 +2,8 @@ package org.game.Shapes;
 
 import java.awt.*;
 
+// TODO: THIS CLASS IS NOT FINISHED
 public class Triangle extends Shape{
-
     public Triangle(int x, int y) {
         super(x, y);
     }
